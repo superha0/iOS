@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Menu Table View Controller-->
+        <!--메뉴 선택-->
         <scene sceneID="yYu-5N-VPP">
             <objects>
                 <tableViewController id="hB6-W9-Fqo" customClass="MenuTableViewController" customModule="SmartOrder" customModuleProvider="target" sceneMemberID="viewController">
@@ -52,7 +52,7 @@
                             <outlet property="delegate" destination="hB6-W9-Fqo" id="tS3-UH-Yes"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="z8P-aW-2Fe"/>
+                    <navigationItem key="navigationItem" title="메뉴 선택" id="z8P-aW-2Fe"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c1T-hz-yUl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
