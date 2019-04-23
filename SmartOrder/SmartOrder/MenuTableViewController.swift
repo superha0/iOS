@@ -47,7 +47,7 @@ class MenuTableViewController: UITableViewController {
         
         let MenuForTheRow:Menu = MenuSubscript[indexPath.row]
         cell.textLabel?.text = MenuForTheRow.coffee
-        cell.detailTextLabel?.text = String(MenuForTheRow.price)
+        cell.detailTextLabel?.text = String(MenuForTheRow.price)+"원"
         
         if (indexPath.row % 2) == 0 {
         cell.imageView?.image = UIImage(named: "그린커피_배경")
